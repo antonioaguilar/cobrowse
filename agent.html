@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="http://bootswatch.com/slate/bootstrap.min.css">
+  <link rel="stylesheet" href="admin.css">
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="admin.js"></script>
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-xs-12">
+      <form class="form-inline">
+        <div class="form-group">
+          <label>Agent Live Assist</label>
+          <input type="text" class="form-control" id="SessionKey" placeholder="Enter Session ID">
+        </div>
+        <button type="submit" class="btn btn-default" onclick="StartSession();">Connect</button>
+      </form>
+      <hr/>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <iframe id="ClientView" src="preview.html"></iframe>
+    </div>
+  </div>
+
+</div>
+
+</body>
+
+</html>
