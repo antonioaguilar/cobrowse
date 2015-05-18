@@ -31,7 +31,7 @@ $ DEBUG=* node server.js
 ## Open the agent page
 
 ```
-[http://localhost:3000/agent.html](http://localhost:3000/agent.html)
+[http://localhost:3000/agent.html](http://localhost:3000/admin.html)
 ```
 
 

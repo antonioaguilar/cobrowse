@@ -1,0 +1,23 @@
+{
+  "name": "cobrowse",
+  "version": "1.0.0",
+  "description": "Simple Co-Browse Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonioaguilar/cobrowse.git"
+  },
+  "author": "Antonio Aguilar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antonioaguilar/cobrowse/issues"
+  },
+  "homepage": "https://github.com/antonioaguilar/cobrowse#readme",
+  "devDependencies": {
+    "socket.io": "^1.3.5"
+  }
+}

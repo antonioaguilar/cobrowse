@@ -1,0 +1,21 @@
+{
+  "name": "cobrowse",
+  "version": "0.1.0",
+  "homepage": "https://github.com/antonioaguilar/cobrowse",
+  "authors": [
+    "Antonio Aguilar"
+  ],
+  "description": "Simple Co-Browse Application",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "mutation-summary": "*",
+    "jquery": "~2.1.4"
+  }
+}
