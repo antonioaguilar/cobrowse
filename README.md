@@ -24,15 +24,11 @@ $ DEBUG=* node server.js
 
 ## Open the client page
 
-```
-http://localhost:3000/client.html
-``` 
+* [http://localhost:3000/client.html](http://localhost:3000/client.html)
 
 ## Open the agent page
 
-```
-http://localhost:3000/admin.html
-```
+* [http://localhost:3000/admin.html](http://localhost:3000/admin.html)
 
 
 ##Credits
