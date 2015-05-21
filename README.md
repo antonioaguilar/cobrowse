@@ -1,4 +1,4 @@
-#Co-Browse Application
+#Co-Browse Application [![Build Status](https://travis-ci.org/antonioaguilar/cobrowse.svg?branch=master)](https://travis-ci.org/antonioaguilar/cobrowse)
 
 This is a demo of a simple co-browse application.
 
