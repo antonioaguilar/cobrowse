@@ -1,11 +1,21 @@
 language: node_js
 
 node_js:
-  - "0.10"
+  - "0.12.3"
 
 before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
-  - npm install --quiet -g bower 
+  - npm install --quiet -g bower serve
   - bower install
 
+script:
+  - DEBUG=* node server.js
+  - sleep 5
+  - serve --port 3000
+  - sleep 5
+  - phantomjs test.js
+  - sleep 2
+  - killall node /usr/local/bin/serve
+  - killall node server.js
+  - echo "Done."
