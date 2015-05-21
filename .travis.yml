@@ -10,13 +10,14 @@ before_script:
   - npm install
   - bower install
 
+
 script:
-  - DEBUG=* node server.js & 
-  - sleep 5
-  - serve --port 3000 & 
-  - sleep 5
+  - DEBUG=* node server.js &
+  - node_server_pid=$! 
+  - serve --port 3000 &
+  - webserver_pid=$! 
   - phantomjs test.js
   - sleep 2
-  - killall node /usr/local/bin/serve
-  - killall node server.js
+  - kill $node_server_pid
+  - kill $webserver_pid
   - echo "Done."
