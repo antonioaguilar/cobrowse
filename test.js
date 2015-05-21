@@ -7,7 +7,6 @@ var url = 'http://localhost:3000/client.html';
 page.open(url, function (status) {
   //Page is loaded!
   phantom.exit();
-  console.log(status);
   console.log('Done.')
 });
 

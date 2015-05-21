@@ -7,9 +7,7 @@ before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
   - npm install --quiet -g bower serve
-  - npm install
   - bower install
-
 
 script:
   - DEBUG=* node server.js &
